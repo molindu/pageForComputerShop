@@ -1,0 +1,81 @@
+.inform{
+  padding-top:15px; }
+  
+fieldset{
+   height:600px;
+   width:600px;
+   margin-right:50px;
+}
+      
+input[type="text"],input[type="email"]{
+  width:350px;
+   }
+   
+input[type="tel"]{
+ width:250px;
+}
+.contact-f-table input[type="text"],input[type="email"],input[type="tel"]{
+  height: 25px;
+  font-size: 20px;
+}
+.contact-f-table input[type="text"],input[type="email"],input[type="tel"],textarea{
+  border-radius: 5px;
+}
+.contact-f-table p{
+  font-size: 20px;
+}
+   
+input[type="submit"]
+ {
+   height:30px;
+   width:150px;
+   border-radius:10px;
+   background-color:#373866;
+   color:white;
+   border:none;
+}
+   
+input[type="submit"]:hover
+  {
+   background-color:#33334d;
+ }
+ 
+.company
+  {
+    width:600px;
+    height:400px;
+   }
+  
+td .address{
+   margin-right:80px;
+  
+  }
+
+td .hours{
+  margin-right:80px;
+  margin-bottom:60px;
+   }
+   
+
+.details{
+  margin-top:10px;
+  background-color:#cce6ff;
+   }
+    
+.mapouter{
+  margin-top:20px;
+  margin-bottom:20px;
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:515px;
+  
+   }
+   
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:500px;
+  width:515px;
+  }
+      

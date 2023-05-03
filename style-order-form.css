@@ -1,0 +1,62 @@
+fieldset{
+   height:950px;
+   width:950px;
+   margin-left:150px;
+   margin-top:20px;
+   background-color:#d8d8f3;
+      }
+      
+input{
+  background-color:#f0f0f5;
+  height:20px; }
+  
+textarea{
+  background-color:#f0f0f5;
+   }
+      
+input[type="text"],input[type="email"]{
+  width:350px;
+   }
+   
+input[type="tel"]{
+ width:250px;
+   }
+   
+.inline input[type="text"]{
+ width:50px;
+   }
+   
+   
+.inline {
+  display:inline-block;
+  align-items: center;
+  flex-direction: row;
+  }
+  
+.inline input[type="text"]{
+     width:250px;
+      }
+      
+.required{
+   color:red;
+   font-size:15px;
+    }
+   
+input[type="submit"]
+ {
+   height:40px;
+   width:150px;
+   font-size:16px;
+   border-radius:10px;
+   background-color:#373866;
+   color:white;
+   float:right;
+   margin-right:150px;
+   }
+   
+input[type="submit"]:hover
+  {
+   background-color:blue;
+ }
+
+      

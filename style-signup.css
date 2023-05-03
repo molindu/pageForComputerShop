@@ -1,0 +1,50 @@
+.signup-main{
+	color:#413839;
+	background:rgba(72,138,199,0.2); 
+	min-width: 620px;
+	width: 620px;
+	border-radius: 5px;
+	height: 440px;
+}
+.signup-main table {
+	padding-top:10px;
+	border:1px solid white;
+	border-radius: 5px;
+	width: 600px;
+	height: 400px;
+
+}
+.signup-main input[type="text"],input[type="email"],input[type="password"]{
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	border-bottom: 1px solid gray;
+	background:rgba(72,138,199,0.1); 
+	color:#413839;
+	font-size: 15px;
+	
+}
+.signup-main input[type="text"],input[type="email"],input[type="password"],input[type="submit"]{
+	/*border-bottom: 1px solid #413839;*/
+	height: 40px;
+	border-radius: 5px;
+	width: 400px;
+
+}
+.signup-main input[type="submit"]{
+	border:none;
+		margin-left: 23px;
+		background-color: #373866;
+		color: white;
+		font-size: 20px;
+}
+.signup-main input[type="submit"]:hover{
+
+		background-color:#488AC7;
+}
+.signup-main .fa-user,.fa-paper-plane,.fa-lock,.fa-check-circle{
+	color: #413839;
+}
+input[type="text"]:hover .fa-user{
+	color: red;
+} 

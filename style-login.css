@@ -1,0 +1,77 @@
+/*body{
+	background-image: url(../image/Untitled-3.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	
+
+}*/
+.c{
+	align-self: center;
+	/*text-align: center;*/
+	position: absolute;
+	/*background-image: url(../image/img1.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;*/
+	/*background-color: blue;*/
+	width: 100%;
+	height: auto;
+}
+.content{
+	/*text-align: center;*/
+	margin-top: 30px;
+	align-self: center;
+	width: 600px;
+	height: 350px;
+	background:rgba(0,0,0,0.5);
+	margin-left: 30%;
+	color: white;
+
+}
+.hr1{
+	background-color: black;
+	height: 1px;
+}
+span{
+	font-size: 20px;
+	/*margin-top: 10px;*/
+}
+.a{
+	float: right;
+	margin-top: -100px;
+	margin-right: 100px;
+}
+.a input[type="text"],input[type="password"]{
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+h1{
+	padding-top: 20px;
+	align-self: center;
+	text-align: center;
+}
+.a input[type="submit"]{
+
+	text-align: center;
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border:none;
+	color: white;
+	background-color: #373866;
+}
+.a input[type="submit"]:hover{
+
+	color: white;
+	background-color:  #488AC7;
+}
+.b input[type="submit"]{
+	font-size: 20px;
+}
+.b{
+	margin-top: 20px;
+	text-align: center;
+}

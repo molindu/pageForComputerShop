@@ -1,0 +1,47 @@
+.img-zoom-container{
+ margin:-110px auto;
+ 
+ 
+   }
+#myimage:hover{
+  cursor:pointer; 
+  }
+  
+#myimage{
+  z-index:1;
+  animation-name:fade;
+  display:block;
+  position:relative;
+  text-align:left;
+  background-position:center;
+    }
+  
+.img-zoom-result{
+  position:absolute;
+  z-index:2;
+  border:double;
+  border-color:black;
+  animation-duration:1.5s;
+  text-align:center;
+  display:block;
+  visibility:hidden;
+  opacity:1;
+  margin:-200px 30%;
+ animation-delay:-0.2s;
+  background-size:250%;
+  background-repeat:no-repeat;
+  width:300px;
+  height:300px;
+  background-color:white;     
+  float:none;
+    }
+  
+
+ 
+@keyframes fade{
+  from{width:0;height:0; }
+  to{width:300px;height:300px; } }
+  
+
+
+  

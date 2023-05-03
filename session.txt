@@ -1,0 +1,29 @@
+<!-- <?php 
+  //session_start();
+
+  // if(!isset($_SESSION['userlogin'])){
+  //if(!isset($_SESSION['New_folder'])){
+   // header("Location :login.php");
+
+  }
+  //else{
+
+  //echo "<div style='background-color:#373866; width:100%; height:30px;'>
+  //<p>
+  //<span>".
+  //$_SESSION['New_folder']
+  //."</span>
+  //<a href='index.php?logout=true' style='color:white; text-decoration:none; float:right; margin-top:5px;margin-right:20px;'>Logout</a>
+  //</p>
+  //</div>";
+  //}
+
+  
+  //if(isset($_GET['logout'])){
+   // session_destroy();
+   // unset($_SESSION);
+   // header("Location : index.php");
+  }
+
+
+?> -->

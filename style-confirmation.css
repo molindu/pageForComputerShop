@@ -1,0 +1,47 @@
+.confirmation-container{
+    background-color:#39CDBE;
+    text-align:center;
+    width:100%;
+    height:auto;
+}
+
+.success{
+    padding:50px;
+    font-size:20px;
+    margin:100px;
+    color:white;
+    
+}
+
+.method{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+}
+
+.payment{
+    display:inline;
+    flex-direction:row;
+    align-items:center;
+    }
+    
+.payment  input[type="submit"]{
+   position:relative;
+   width:45%;
+   height:50px;
+   font-size:16px;
+   border-radius:10px;
+   margin-bottom:10px;
+   margin-left:50px;
+   
+   }    
+    
+.payment input[name="direct-dep"]
+{
+    background-color:#6C7C34;
+}
+    
+.payment input[name="cash-on-del"]
+{
+    background-color:#C70314;
+}

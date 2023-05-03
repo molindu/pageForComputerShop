@@ -1,0 +1,42 @@
+.sub-pro{
+  border:1px solid gray;
+  border-radius: 10px;
+   background:rgba(0,0,0,0.1);
+}
+.sub-pro2{
+   width: 90%;
+}
+ .sub-pro2 table{
+   width: 100%;
+    height: 920px;
+   /*border:1px solid black;*/
+}
+ .sub-pro2 table td{
+    /*border:1px solid black;*/
+     width: 33.33%;
+}
+.sub-pro .one{
+   height: 44.44%;
+}
+.sub-pro .two{
+   height:5%;
+} 
+ .sub-pro img{
+  width: 400px;
+ }
+ .twoo{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+   background-color: #373866;
+ }  
+ .twoo:hover{
+    background-color: #488AC7;
+ }
+ .name-pro {
+color:  white;
+ }
+/*.twoo:hover .name-pro {
+color: red;
+ }
+*/
